@@ -1,5 +1,44 @@
 import { ChevronDownIcon, MessageCircleMoreIcon, MessageSquareMoreIcon, PenLineIcon, UsersIcon } from "lucide-react";
 
+const PeopleList = [
+    {
+        fullname: "Stuart Dave"
+    },
+    {
+        fullname: "Lucy Lopez"
+    },
+    {
+        fullname: "Michael Johnson"
+    },
+    {
+        fullname: "Emily Clark"
+    },
+    {
+        fullname: "William Brown"
+    },
+    {
+        fullname: "Sophia Wilson"
+    },
+    {
+        fullname: "James Smith"
+    },
+    {
+        fullname: "Ava Davis"
+    },
+    {
+        fullname: "Benjamin Martinez"
+    },
+    {
+        fullname: "Olivia Harris"
+    },
+    {
+        fullname: "Alexander Lee"
+    },
+    {
+        fullname: "Charlotte Walker"
+    }    
+]
+
 const Widgets = () => {
     return (
         <div className="w-full h-full flex flex-col justify-start items-start gap-4">
@@ -20,19 +59,19 @@ const Widgets = () => {
                                 Online users
                             </h3>
                             <p className="text-xs font-semibold text-muted-foreground">
-                                43 Online
+                                12 Online
                             </p>
                         </div>
                         <ChevronDownIcon className="w-6 h-6 ml-auto mr-1"/>
                     </div>
                     <div className="w-full flex flex-col justify-start items-start gap-4 pl-12">
-                        {new Array(5).fill(0).map((_, i) => (
+                        {PeopleList.map((person, i) => (
                             <div className="w-full flex justify-start items-center gap-3" key={i}>
                                 <div className="rounded-full w-10 h-10">
                                     <img src={`https://randomuser.me/api/portraits/thumb/men/${i}.jpg`} alt="user" className="w-full h-full rounded-full"/>
                                 </div>
                                 <p className="flex justify-start items-center font-semibold text-sm">
-                                    Stuart Dave
+                                    {person.fullname}
                                 </p>
                                 <div className="p-2 ml-auto">
                                     <MessageSquareMoreIcon className="w-5 h-5"/>
