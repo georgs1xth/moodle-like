@@ -2,6 +2,7 @@ import CourseOverview from "./_components/course-overview";
 import LatestCourseUpdates from "./_components/latest-course-updates";
 import LatestSubmissions from "./_components/latest-submissions";
 import RecentAccessedCourses from "./_components/recent-accessed-courses";
+import Widgets from "./_components/widgets";
 
 export default function Home() {
   return (
@@ -19,10 +20,7 @@ export default function Home() {
         </div>
       </div>
       <div className="col-span-2 w-full pl-4 h-full">
-        <div className="w-full h-full rounded-md bg-white shadow-sm">
-
-        </div>
-        {/* <Widgets /> */}
+          <Widgets />
       </div>
     </div>
   );

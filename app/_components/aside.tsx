@@ -65,7 +65,7 @@ const Aside = () => {
                         <route.icon className={cn("w-6 h-6 aspect-square group-hover:text-[#005aa0] transition-all",
                             pathname==route.href && "text-[#005aa0]"
                         )}/>
-                        <h3 className={cn("text-base font-semibold group-hover:text-[#005aa0] transition-all", 
+                        <h3 className={cn("text-base font-semibold group-hover:text-[#005aa0] transition-all whitespace-nowrap", 
                             pathname==route.href && "text-[#005aa0]"
                         )}>
                             {route.label}

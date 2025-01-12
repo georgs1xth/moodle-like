@@ -40,7 +40,7 @@ export default function RootLayout({
             <div className="relative top-0 z-50 w-full flex-none">
               <Header />
             </div>
-            <div className="flex justify-center w-full items-center ">
+            <div className="flex justify-center w-full items-center pb-10">
               {children}
             </div>
           </div>
