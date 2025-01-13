@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const CoursesList = [
     {
-        id: 1,
+        id: 0,
         title: "Elective course XII - Advanced Quantum Mechanics",
         teacher: "dr. Doofenschmeirz",
         location: "P6/312",
@@ -14,7 +14,7 @@ const CoursesList = [
         color: "blue",
     },
     {
-        id: 2,
+        id: 1,
         title: "Elective course IV - Data Structures and Algorithms",
         teacher: "dr. Anita Max Win",
         location: "P7/302",
@@ -24,7 +24,7 @@ const CoursesList = [
         color: "violet",
     },
     {
-        id: 3,
+        id: 2,
         title: "Elective course XV - Modern brainwash for despicablest",
         teacher: "dr. Gru",
         location: "Bank toilet",
@@ -34,7 +34,7 @@ const CoursesList = [
         color: "red",   
     },
     {
-        id: 4,
+        id: 3,
         title: "Elective course XII - Cybersecurity and Cybernotsecurity",
         teacher: "dr. Anuarbek",
         location: "P9/312",
@@ -44,7 +44,7 @@ const CoursesList = [
         color: "emerald",   
     },
     {
-        id: 5,
+        id: 4,
         title: "Elective course IX - Astrophysics and Space Travel",
         teacher: "dr. Neil deGrasse Tyson",
         location: "P1/200",
@@ -54,7 +54,7 @@ const CoursesList = [
         color: "purple",
     },
     {
-        id: 6,
+        id: 5,
         title: "Elective course VII - Ethical Hacking and Penetration Testing",
         teacher: "dr. Kevin Mitnick",
         location: "P5/110",
@@ -64,7 +64,7 @@ const CoursesList = [
         color: "gray",
     },
     {
-        id: 7,
+        id: 6,
         title: "Elective course III - Artificial Intelligence and Machine Learning",
         teacher: "dr. Andrew Ng",
         location: "P4/208",
@@ -74,7 +74,7 @@ const CoursesList = [
         color: "orange",
     },
     {
-        id: 8,
+        id: 7,
         title: "Elective course VI - Introduction to Nanotechnology",
         teacher: "dr. Richard Feynman",
         location: "P3/115",
@@ -84,7 +84,7 @@ const CoursesList = [
         color: "cyan",
     },
     {
-        id: 9,
+        id: 8,
         title: "Elective course II - Neuroscience of Learning",
         teacher: "dr. John Medina",
         location: "P8/222",
@@ -94,7 +94,7 @@ const CoursesList = [
         color: "green",
     },
     {
-        id: 10,
+        id: 9,
         title: "Elective course V - Robotics and Automation",
         teacher: "dr. Rodney Brooks",
         location: "P2/314",
@@ -104,7 +104,7 @@ const CoursesList = [
         color: "yellow",
     },
     {
-        id: 11,
+        id: 10,
         title: "Elective course VIII - Bioinformatics and Computational Biology",
         teacher: "dr. Francis Collins",
         location: "P6/205",
@@ -114,7 +114,7 @@ const CoursesList = [
         color: "blue",
     },
     {
-        id: 12,
+        id: 11,
         title: "Elective course XI - Quantum Computing",
         teacher: "dr. David Deutsch",
         location: "P10/308",
